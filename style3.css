@@ -1,0 +1,305 @@
+
+
+.pic{
+  width: 3cm;
+  height: 2cm;
+}
+.badr{
+  margin-left: 1cm;
+}
+.navbar{
+  display: flex;
+ 
+  width: 90%;
+  margin: auto;
+  list-style: none;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  
+  border-bottom: black thin 1px;
+  
+  
+
+}
+.bar{
+  align-items: center;
+position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  
+  
+  
+}
+.pic{
+ width: 2cm;
+ flex: 2;
+ max-height: 3cm;
+ max-width: 2cm;
+ margin-left: 1cm;
+ 
+}
+.linksbar{
+  display: flex;
+  list-style: none;
+  margin-left: 10cm;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+  font-size: 24px;
+  
+
+}
+.linksbar :hover{
+  color: rgba(242, 144, 24, 0.7);
+}
+.link{
+  text-decoration: none;
+  color: black;
+  
+}
+
+
+
+
+}
+header{
+  align-items: center;
+ 
+}
+.pre{
+display: flex;
+width: 90%;
+margin: auto;
+min-height: 80vh;
+align-items: center;
+
+
+  
+  
+}
+.intro{
+
+  flex: 2;
+}
+.cover{
+  flex: 1;
+  padding-left: 5cm
+ 
+ 
+}
+.intext h1{
+  font-size: 50px;
+  font-weight: 500;
+  color: #454450;
+
+}
+.intext p{ 
+  margin-top: 1px;
+  font-size: 22px;
+  color: #585772;
+
+}
+.cta{
+  padding: 60px 0px 0px 20px;
+}
+.ctagoogle{
+  padding: 7px 10px;
+  background-color: black;
+  color: bisque;
+  border: 1px black solid;
+  transition: 1s;
+}
+.ctagoogle:hover{
+  background-color: aliceblue;
+  color: rgb(242, 144, 24);
+
+}
+.ctaapple{
+  padding: 7px 10px;
+  background-color: black;
+  color: aliceblue;
+  border: 1px black solid;
+  transition: 1s;
+}
+.ctaapple:hover{
+  background-color: white;
+  color: rgb(242, 144, 24);
+
+}
+.about{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 1cm;
+}
+.aboutinto{
+  padding-left: 3cm;
+}
+.aboutinto h2{
+  font-size: 29px;
+  
+  
+  color: #454450;
+}
+.aboutinto p{
+  font-size: 20px;
+  color: #585772;
+}
+.picint{
+  border: 0.2cm solid rgb(247, 136, 32);
+}
+.smart{
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.spic{
+  flex: 1;
+  margin-top: 1cm;
+  margin-right: 2cm;
+  margin-bottom: 1cm;
+  
+}
+.shead {
+  padding-right: 3cm; 
+  margin-top: 1cm;
+}
+.shead h1{
+  font-size: 30px;
+  color: #454450;
+}
+.shead p{
+  font-size: 23px;
+  color: #585772;
+}
+.btsmart{
+  padding: 15px 10px;
+  font-size: 19px;
+  align-items: center;
+  padding: 7px 10px;
+  background-color: black;
+  color: aliceblue;
+  border: 1px black solid;
+  transition: 1s;
+}
+.apply{
+
+  padding-left: 1cm;
+  
+}
+.btsmart:hover{
+  background-color: white;
+  color: rgb(242, 144, 24);
+
+}
+
+.se{
+  align-content: space-around;
+  align-self: auto;
+  width: 55%;
+  margin: auto;
+
+}
+.se1{
+  flex: 2;
+ 
+}
+.our{
+  text-align: center;
+  font-size: 40px;
+  font-family: "monsterrat";
+}
+.text1{
+  margin-left: 1.5cm;
+}
+.text2{
+  margin-left: 2cm;
+}
+.text3{
+  margin-left: 2cm;
+}
+.expl{
+  width: 70%;
+  margin: auto;
+  font-size: 23px;
+  border: 10px solid rgb(242, 144, 24) ;
+  padding: 2cm;
+  align-items: center;
+  text-align: center;
+  margin-top: 2px;
+  padding-top: 0.5cm;
+  max-height: 17.5cm;
+  background-image: url(/ppback.JPG);
+  color: white;
+  
+}
+
+
+.firstr{
+margin-left: 2cm;
+text-align: center;
+font-size: 27px;
+margin-top: 2px;
+padding-top: 2px;
+padding-bottom: 1px;
+
+
+
+
+}
+
+
+
+
+
+.m{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 0cm;
+  
+}
+.expl p{
+  font-size: 1cm;
+  margin-top: 0px;
+  color: rgb(242, 144, 24);
+  background-color: rgba(242, 144, 24, 0.7);
+  }
+
+  .contact{
+    display: grid;
+    width: 70%;
+    margin: auto;
+   
+    grid-template-columns: "1fr 1fr";
+    grid-template-areas: "logob coninfo ";
+
+  }
+  .coninfo{
+font-size: 25px;
+margin-top: 0cm;
+margin-left: 1cm;
+grid-area: coninfo ;
+
+  }
+  .info{
+    margin-top: 0px;
+  }
+  .logob{
+    margin-top: 0.5cm;
+    grid-area: logob ;
+  }
+  .goto{
+    text-decoration: none;
+    color: white;
+
+  }
+  .navfooter{
+    background-color: rgb(242, 144, 24);
+    height: 3cm;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2cm;
+  }
+
